@@ -1,0 +1,24 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # Build check only. The site is published by the enosema/enosema.github.io
+    # pipeline, which mounts this build at www.enosema.org/concept-register/
+    # (org-level custom-domain routing makes project Pages unusable here).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build concept-browser site
+        run: npx -y @glossarist/concept-browser@0.7.139 build

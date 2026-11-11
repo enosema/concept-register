@@ -2,8 +2,8 @@
 # types defined in EFS 2510:2026, clause 6, registered per the FERIN
 # framework (ISO 19135 procedures) and published with concept-browser.
 id: enosema-concept-register
-domain: enosema.github.io
-uri_base: https://enosema.github.io
+domain: www.enosema.org
+uri_base: https://www.enosema.org
 base_path: /concept-register
 title: Enosema Concept Register
 subtitle: ES Relation Vocabulary

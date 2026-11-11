@@ -1,0 +1,35 @@
+---
+id: has_property
+data:
+  identifier: has_property
+  uri: urn:enosema:relation-type:has_property
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: property_of
+---
+id: has_property-eng
+termid: has_property
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: has_property
+    normative_status: preferred
+  definition:
+  - content: "The current concept possesses the property expressed by the related concept."
+  notes:
+  - content: "Inverse relation type: `property_of`. Relation family: associative-contiguity. Source: ISO 704:2022, 5.5.5, Table 1 (contiguity); EFS 2510:2026, 6.4."
+status: valid

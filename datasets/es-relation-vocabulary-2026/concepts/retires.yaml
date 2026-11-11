@@ -1,0 +1,35 @@
+---
+id: retires
+data:
+  identifier: retires
+  uri: urn:enosema:relation-type:retires
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: retired_by
+---
+id: retires-eng
+termid: retires
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: retires
+    normative_status: preferred
+  definition:
+  - content: "The current concept retires the related concept from the register."
+  notes:
+  - content: "Inverse relation type: `retired_by`. Relation family: lifecycle. Source: ISO 10241-1; ISO 19135-1; EFS 2510:2026, 6.5."
+status: valid

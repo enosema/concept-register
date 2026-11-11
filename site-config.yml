@@ -1,0 +1,30 @@
+# ES Relation Vocabulary — the controlled vocabulary of concept relation
+# types defined in EFS 2510:2026, clause 6, registered per the FERIN
+# framework (ISO 19135 procedures) and published with concept-browser.
+id: enosema-concept-register
+domain: enosema.github.io
+uri_base: https://enosema.github.io
+base_path: /concept-register
+title: Enosema Concept Register
+subtitle: ES Relation Vocabulary
+description: >-
+  The controlled vocabulary of concept relation types of the Enosema
+  Foundation, registered under the FERIN framework per EFS 2510:2026.
+ui_languages:
+  - code: eng
+    label: English
+language_order:
+  - eng
+datasets:
+  - id: es-relation-vocabulary-2026
+    title: ES Relation Vocabulary (2026)
+    description: Relation types defined in EFS 2510:2026, clause 6.
+    owner: Enosema Foundation
+    color: "#007724"
+    local_path: datasets/es-relation-vocabulary-2026
+    ref: ES Relation Vocabulary (2026)
+    year: 2026
+bulk_exports:
+  - ttl
+  - jsonld
+  - csv

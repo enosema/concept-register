@@ -1,0 +1,28 @@
+---
+id: contrast
+data:
+  identifier: contrast
+  uri: urn:enosema:relation-type:contrast
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+---
+id: contrast-eng
+termid: contrast
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: contrast
+    normative_status: preferred
+  definition:
+  - content: "The current concept is understood in contrast to the related concept."
+  notes:
+  - content: "This relation type is symmetric: it carries no distinct inverse; the assertion holds in both directions. Relation family: equivalence-mapping. Source: ISO 25964-2; SKOS; ISO 10241-1; EFS 2510:2026, 6.3."
+status: valid

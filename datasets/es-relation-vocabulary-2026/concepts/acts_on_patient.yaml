@@ -1,0 +1,35 @@
+---
+id: acts_on_patient
+data:
+  identifier: acts_on_patient
+  uri: urn:enosema:relation-type:acts_on_patient
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: patient_of_action
+---
+id: acts_on_patient-eng
+termid: acts_on_patient
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: acts_on_patient
+    normative_status: preferred
+  definition:
+  - content: "The current concept is an action; the related concept is the patient undergoing it."
+  notes:
+  - content: "Inverse relation type: `patient_of_action`. Relation family: associative-activity. Source: ISO 704:2022, 5.5.5, Table 1 (activity); EFS 2510:2026, 6.4."
+status: valid

@@ -1,0 +1,35 @@
+---
+id: employs_tool
+data:
+  identifier: employs_tool
+  uri: urn:enosema:relation-type:employs_tool
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: employed_by_professional
+---
+id: employs_tool-eng
+termid: employs_tool
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: employs_tool
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the tool employed by the related professional."
+  notes:
+  - content: "Inverse relation type: `employed_by_professional`. Relation family: associative-instrumental. Source: ISO 704:2022, 5.5.5, Table 1 (instrumental); EFS 2510:2026, 6.4."
+status: valid

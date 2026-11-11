@@ -1,0 +1,22 @@
+---
+schema_type: glossarist
+schema_version: '3'
+id: es-relation-vocabulary-2026
+ref: ES Relation Vocabulary (2026)
+year: 2026
+urn: urn:enosema:relation-vocabulary:2026
+status: current
+owner: Enosema Foundation
+source_repo: https://github.com/enosema/concept-register
+tags:
+- enosema
+- relation-types
+- concept-relations
+- EFS-2510
+- SKOS
+languages:
+- eng
+language_order:
+- eng
+about:
+  eng: about-eng.md

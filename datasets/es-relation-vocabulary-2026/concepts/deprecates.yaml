@@ -1,0 +1,35 @@
+---
+id: deprecates
+data:
+  identifier: deprecates
+  uri: urn:enosema:relation-type:deprecates
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: deprecated_by
+---
+id: deprecates-eng
+termid: deprecates
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: deprecates
+    normative_status: preferred
+  definition:
+  - content: "The current concept deprecates the related concept: continued use of the related concept is discouraged."
+  notes:
+  - content: "Inverse relation type: `deprecated_by`. Relation family: lifecycle. Source: ISO 10241-1; ISO 19135-1; EFS 2510:2026, 6.5."
+status: valid

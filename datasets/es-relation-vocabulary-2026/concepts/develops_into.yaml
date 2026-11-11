@@ -1,0 +1,35 @@
+---
+id: develops_into
+data:
+  identifier: develops_into
+  uri: urn:enosema:relation-type:develops_into
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: develops_from
+---
+id: develops_into-eng
+termid: develops_into
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: develops_into
+    normative_status: preferred
+  definition:
+  - content: "The current concept is an earlier developmental stage of the related concept."
+  notes:
+  - content: "Inverse relation type: `develops_from`. Relation family: associative-sequential. Source: ISO 704:2022, 5.5.5, Table 1 (sequential); ISO 12620; EFS 2510:2026, 6.4."
+status: valid

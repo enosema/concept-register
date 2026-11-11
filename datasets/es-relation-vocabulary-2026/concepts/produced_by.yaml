@@ -1,0 +1,35 @@
+---
+id: produced_by
+data:
+  identifier: produced_by
+  uri: urn:enosema:relation-type:produced_by
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: produces
+---
+id: produced_by-eng
+termid: produced_by
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: produced_by
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the product of the related producer."
+  notes:
+  - content: "Inverse relation type: `produces`. Relation family: associative-instrumental. Source: ISO 704:2022, 5.5.5, Table 1 (instrumental); EFS 2510:2026, 6.4."
+status: valid

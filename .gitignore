@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.datasets/
+.cb-content/
+.DS_Store
+public/data/**
+!public/data/**/
+!public/data/**/.gitkeep

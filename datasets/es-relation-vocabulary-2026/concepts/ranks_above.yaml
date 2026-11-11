@@ -1,0 +1,35 @@
+---
+id: ranks_above
+data:
+  identifier: ranks_above
+  uri: urn:enosema:relation-type:ranks_above
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: ranks_below
+---
+id: ranks_above-eng
+termid: ranks_above
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: ranks_above
+    normative_status: preferred
+  definition:
+  - content: "The current concept outranks the related concept in a hierarchy of rank."
+  notes:
+  - content: "Inverse relation type: `ranks_below`. Relation family: associative-contiguity. Source: ISO 704:2022, 5.5.5, Table 1 (contiguity); EFS 2510:2026, 6.4."
+status: valid

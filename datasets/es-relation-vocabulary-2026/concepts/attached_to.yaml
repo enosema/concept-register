@@ -1,0 +1,35 @@
+---
+id: attached_to
+data:
+  identifier: attached_to
+  uri: urn:enosema:relation-type:attached_to
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: attaches
+---
+id: attached_to-eng
+termid: attached_to
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: attached_to
+    normative_status: preferred
+  definition:
+  - content: "The current concept is a connection attached to the related tool."
+  notes:
+  - content: "Inverse relation type: `attaches`. Relation family: associative-contiguity. Source: ISO 704:2022, 5.5.5, Table 1 (contiguity); EFS 2510:2026, 6.4."
+status: valid

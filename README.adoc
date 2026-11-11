@@ -1,0 +1,56 @@
+= Enosema Concept Register
+
+image:https://github.com/enosema/concept-register/workflows/deploy/badge.svg["Build Status", link="https://github.com/enosema/concept-register/actions?query=workflow%3Adeploy"]
+
+The concept register of the https://www.enosema.org[Enosema Foundation
+(ES)]: collections of concepts managed as registered items under the
+FERIN framework (ISO 19135 procedures) and published as a browsable site.
+
+== Published datasets
+
+`es-relation-vocabulary-2026`:: the ES relation vocabulary — the
+controlled vocabulary of concept relation types defined in
+EFS 2510:2026, clause 6 (109 types with semantics, direction, inverse,
+family, and source), registered as first-class items with stable URNs
+(`urn:enosema:relation-type:<identifier>`).
+
+The browsable site is published at
+https://enosema.github.io/concept-register/ and offers TTL, JSON-LD, and
+CSV bulk exports per dataset. The SKOS projection lives at
+`skos/relation-type.ttl`.
+
+== Governance
+
+Additions and changes to the vocabulary follow EFD 101 (proposal,
+review, control body decision) and EFS 2513 (concept management system
+requirements). Each registered item carries a registration status and
+its sources; retired items are retained, never deleted.
+
+== Data layout
+
+The data follows the glossarist v3 dataset format
+(`schema_type: glossarist`, `schema_version: '3'`), one multi-document
+YAML per concept (managed concept + localized concept), as consumed by
+the glossarist tools and `@glossarist/concept-browser`.
+
+Regenerate the dataset and the SKOS projection from the canonical table:
+
+[source,sh]
+----
+python3 scripts/generate.py
+----
+
+== Building the site locally
+
+[source,sh]
+----
+npx @glossarist/concept-browser build   # writes dist/
+----
+
+== License
+
+Copyright © 2026 Enosema Foundation.
+
+ES register data is made available under the Creative Commons Attribution
+4.0 International (CC BY 4.0) license. The full license text is available
+in the LICENSE file.

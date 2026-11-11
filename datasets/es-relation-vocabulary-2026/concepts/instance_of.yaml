@@ -1,0 +1,35 @@
+---
+id: instance_of
+data:
+  identifier: instance_of
+  uri: urn:enosema:relation-type:instance_of
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: has_instance
+---
+id: instance_of-eng
+termid: instance_of
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: instance_of
+    normative_status: preferred
+  definition:
+  - content: "The current concept is an instance of the related concept."
+  notes:
+  - content: "Inverse relation type: `has_instance`. Relation family: hierarchical-instantial. Source: ISO 25964-1; ISO 19135-1; EFS 2510:2026, 6.2."
+status: valid

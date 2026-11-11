@@ -1,0 +1,35 @@
+---
+id: broader_generic
+data:
+  identifier: broader_generic
+  uri: urn:enosema:relation-type:broader_generic
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: narrower_generic
+---
+id: broader_generic-eng
+termid: broader_generic
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: broader_generic
+    normative_status: preferred
+  definition:
+  - content: "The current concept is a kind of the related concept (generic/specific)."
+  notes:
+  - content: "Inverse relation type: `narrower_generic`. Relation family: hierarchical-generic. Source: ISO 25964-1 (BTG/NTG); EFS 2510:2026, 6.2."
+status: valid

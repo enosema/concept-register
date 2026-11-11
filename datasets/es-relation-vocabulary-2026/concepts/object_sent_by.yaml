@@ -1,0 +1,35 @@
+---
+id: object_sent_by
+data:
+  identifier: object_sent_by
+  uri: urn:enosema:relation-type:object_sent_by
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: sends_object
+---
+id: object_sent_by-eng
+termid: object_sent_by
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: object_sent_by
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the object sent by the related sender."
+  notes:
+  - content: "Inverse relation type: `sends_object`. Relation family: associative-interactional-origination-transmission. Source: ISO 704:2022, 5.5.5, Table 1 (interactional, origination, transmission); EFS 2510:2026, 6.4."
+status: valid

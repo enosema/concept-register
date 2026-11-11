@@ -1,0 +1,35 @@
+---
+id: method_of
+data:
+  identifier: method_of
+  uri: urn:enosema:relation-type:method_of
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: done_by_method
+---
+id: method_of-eng
+termid: method_of
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: method_of
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the method of the related action."
+  notes:
+  - content: "Inverse relation type: `done_by_method`. Relation family: associative-activity. Source: ISO 704:2022, 5.5.5, Table 1 (activity); EFS 2510:2026, 6.4."
+status: valid

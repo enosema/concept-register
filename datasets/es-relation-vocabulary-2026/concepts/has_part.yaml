@@ -1,0 +1,35 @@
+---
+id: has_part
+data:
+  identifier: has_part
+  uri: urn:enosema:relation-type:has_part
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: is_part_of
+---
+id: has_part-eng
+termid: has_part
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: has_part
+    normative_status: preferred
+  definition:
+  - content: "The current concept has the related concept as a part."
+  notes:
+  - content: "Inverse relation type: `is_part_of`. Relation family: hierarchical-partitive. Source: ISO 25964-1; ISO 19135-1; EFS 2510:2026, 6.2."
+status: valid

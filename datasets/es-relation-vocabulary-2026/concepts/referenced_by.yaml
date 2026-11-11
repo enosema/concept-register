@@ -1,0 +1,35 @@
+---
+id: referenced_by
+data:
+  identifier: referenced_by
+  uri: urn:enosema:relation-type:referenced_by
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: references
+---
+id: referenced_by-eng
+termid: referenced_by
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: referenced_by
+    normative_status: preferred
+  definition:
+  - content: "The current concept is referenced by the related concept."
+  notes:
+  - content: "Inverse relation type: `references`. Relation family: lexical. Source: ISO 12620; ISO 10241-1; EFS 2510:2026, 6.5."
+status: valid

@@ -1,0 +1,35 @@
+---
+id: current_version
+data:
+  identifier: current_version
+  uri: urn:enosema:relation-type:current_version
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: current_version_of
+---
+id: current_version-eng
+termid: current_version
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: current_version
+    normative_status: preferred
+  definition:
+  - content: "The related concept is the current version among the versions of the current concept."
+  notes:
+  - content: "Inverse relation type: `current_version_of`. Relation family: versioning. Source: ISO 19135-1; EFS 2510:2026, 6.5."
+status: valid

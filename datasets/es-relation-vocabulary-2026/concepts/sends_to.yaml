@@ -1,0 +1,35 @@
+---
+id: sends_to
+data:
+  identifier: sends_to
+  uri: urn:enosema:relation-type:sends_to
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: receives_from
+---
+id: sends_to-eng
+termid: sends_to
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: sends_to
+    normative_status: preferred
+  definition:
+  - content: "The current concept sends to the related concept."
+  notes:
+  - content: "Inverse relation type: `receives_from`. Relation family: associative-interactional-origination-transmission. Source: ISO 704:2022, 5.5.5, Table 1 (interactional, origination, transmission); EFS 2510:2026, 6.4."
+status: valid

@@ -1,0 +1,35 @@
+---
+id: related_concept_broader
+data:
+  identifier: related_concept_broader
+  uri: urn:enosema:relation-type:related_concept_broader
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: related_concept_narrower
+---
+id: related_concept_broader-eng
+termid: related_concept_broader
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: related_concept_broader
+    normative_status: preferred
+  definition:
+  - content: "The current concept is associated with the related concept in a broader sense."
+  notes:
+  - content: "Inverse relation type: `related_concept_narrower`. Relation family: lexical. Source: ISO 12620; ISO 10241-1; EFS 2510:2026, 6.5."
+status: valid

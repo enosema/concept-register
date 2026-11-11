@@ -1,0 +1,28 @@
+---
+id: contained_by_contained
+data:
+  identifier: contained_by_contained
+  uri: urn:enosema:relation-type:contained_by_contained
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+---
+id: contained_by_contained-eng
+termid: contained_by_contained
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: contained_by_contained
+    normative_status: preferred
+  definition:
+  - content: "The current concept shares a container with the related concept."
+  notes:
+  - content: "This relation type is symmetric: it carries no distinct inverse; the assertion holds in both directions. Relation family: associative-contiguity. Source: ISO 704:2022, 5.5.5, Table 1 (contiguity); EFS 2510:2026, 6.4."
+status: valid

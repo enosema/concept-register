@@ -1,0 +1,35 @@
+---
+id: ingredient_of
+data:
+  identifier: ingredient_of
+  uri: urn:enosema:relation-type:ingredient_of
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: made_from_ingredient
+---
+id: ingredient_of-eng
+termid: ingredient_of
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: ingredient_of
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the raw material of the related product."
+  notes:
+  - content: "Inverse relation type: `made_from_ingredient`. Relation family: associative-instrumental. Source: ISO 704:2022, 5.5.5, Table 1 (instrumental); EFS 2510:2026, 6.4."
+status: valid

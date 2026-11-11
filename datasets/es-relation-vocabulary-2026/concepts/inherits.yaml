@@ -1,0 +1,35 @@
+---
+id: inherits
+data:
+  identifier: inherits
+  uri: urn:enosema:relation-type:inherits
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: inherited_by
+---
+id: inherits-eng
+termid: inherits
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: inherits
+    normative_status: preferred
+  definition:
+  - content: "The current concept inherits characteristics from the related concept."
+  notes:
+  - content: "Inverse relation type: `inherited_by`. Relation family: register. Source: ISO 19135-1; EFS 2510:2026, 6.5."
+status: valid

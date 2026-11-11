@@ -1,0 +1,35 @@
+---
+id: contained_by_container
+data:
+  identifier: contained_by_container
+  uri: urn:enosema:relation-type:contained_by_container
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: contains
+---
+id: contained_by_container-eng
+termid: contained_by_container
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: contained_by_container
+    normative_status: preferred
+  definition:
+  - content: "The current concept is contained in the related container."
+  notes:
+  - content: "Inverse relation type: `contains`. Relation family: associative-contiguity. Source: ISO 704:2022, 5.5.5, Table 1 (contiguity); EFS 2510:2026, 6.4."
+status: valid

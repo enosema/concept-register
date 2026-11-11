@@ -1,0 +1,28 @@
+---
+id: temporally_related
+data:
+  identifier: temporally_related
+  uri: urn:enosema:relation-type:temporally_related
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+---
+id: temporally_related-eng
+termid: temporally_related
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: temporally_related
+    normative_status: preferred
+  definition:
+  - content: "The current concept is temporally positioned relative to the related concept."
+  notes:
+  - content: "This relation type is symmetric: it carries no distinct inverse; the assertion holds in both directions. Relation family: associative-sequential. Source: ISO 704:2022, 5.5.5, Table 1 (sequential); ISO 12620; EFS 2510:2026, 6.4."
+status: valid

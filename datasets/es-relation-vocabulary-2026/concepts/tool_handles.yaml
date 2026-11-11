@@ -1,0 +1,35 @@
+---
+id: tool_handles
+data:
+  identifier: tool_handles
+  uri: urn:enosema:relation-type:tool_handles
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: handled_by_tool
+---
+id: tool_handles-eng
+termid: tool_handles
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: tool_handles
+    normative_status: preferred
+  definition:
+  - content: "The current concept is the tool that handles the related object."
+  notes:
+  - content: "Inverse relation type: `handled_by_tool`. Relation family: associative-instrumental. Source: ISO 704:2022, 5.5.5, Table 1 (instrumental); EFS 2510:2026, 6.4."
+status: valid

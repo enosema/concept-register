@@ -1,0 +1,35 @@
+---
+id: has_version
+data:
+  identifier: has_version
+  uri: urn:enosema:relation-type:has_version
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: version_of
+---
+id: has_version-eng
+termid: has_version
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: has_version
+    normative_status: preferred
+  definition:
+  - content: "The current concept has the related concept as a version."
+  notes:
+  - content: "Inverse relation type: `version_of`. Relation family: versioning. Source: ISO 19135-1; EFS 2510:2026, 6.5."
+status: valid

@@ -1,0 +1,28 @@
+---
+id: see
+data:
+  identifier: see
+  uri: urn:enosema:relation-type:see
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+---
+id: see-eng
+termid: see
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: see
+    normative_status: preferred
+  definition:
+  - content: "The definition of the current concept is completed by referring to the related concept."
+  notes:
+  - content: "This relation type is symmetric: it carries no distinct inverse; the assertion holds in both directions. Relation family: lexical. Source: ISO 12620; ISO 10241-1; EFS 2510:2026, 6.5."
+status: valid

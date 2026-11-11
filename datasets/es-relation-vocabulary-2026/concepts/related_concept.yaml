@@ -1,0 +1,28 @@
+---
+id: related_concept
+data:
+  identifier: related_concept
+  uri: urn:enosema:relation-type:related_concept
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+---
+id: related_concept-eng
+termid: related_concept
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: related_concept
+    normative_status: preferred
+  definition:
+  - content: "The current concept is associated with the related concept without a stated kind."
+  notes:
+  - content: "This relation type is symmetric: it carries no distinct inverse; the assertion holds in both directions. Relation family: lexical. Source: ISO 12620; ISO 10241-1; EFS 2510:2026, 6.5."
+status: valid

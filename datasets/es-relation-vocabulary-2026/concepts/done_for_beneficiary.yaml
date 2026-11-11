@@ -1,0 +1,35 @@
+---
+id: done_for_beneficiary
+data:
+  identifier: done_for_beneficiary
+  uri: urn:enosema:relation-type:done_for_beneficiary
+status: valid
+date_accepted: '2026-11-11T00:00:00+00:00'
+sources:
+- type: authoritative
+  origin:
+    ref:
+      source: EFS 2510:2026
+      clause: 6
+    link: https://www.enosema.org/standards/docs/efs-2510/2026/
+related:
+- type: related_concept
+  content:
+    eng: "inverse relation type"
+  ref:
+    source: ES
+    id: beneficiary_of_action
+---
+id: done_for_beneficiary-eng
+termid: done_for_beneficiary
+data:
+  language_code: eng
+  terms:
+  - type: expression
+    designation: done_for_beneficiary
+    normative_status: preferred
+  definition:
+  - content: "The current concept is an action; the related concept is its beneficiary."
+  notes:
+  - content: "Inverse relation type: `beneficiary_of_action`. Relation family: associative-activity. Source: ISO 704:2022, 5.5.5, Table 1 (activity); EFS 2510:2026, 6.4."
+status: valid
